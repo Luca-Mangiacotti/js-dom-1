@@ -1,0 +1,50 @@
+/*----------------
+    RESET
+------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+
+/*----------------
+    SWITCH SECTION
+------------------*/
+#switch{
+
+    position: static;
+}
+
+#dark,
+#light,
+#btnChangeStatus{
+    position: absolute;
+}
+
+#light{
+    left: -41px;
+}
+
+#btnChangeStatus{
+
+    bottom: 0;
+
+}
+
+
+
+/*----------------
+   EVENT CLASS
+------------------*/
+
+.statusOn{
+    display:block;
+}
+
+.statusOff{
+    display: none;
+}
+
+
