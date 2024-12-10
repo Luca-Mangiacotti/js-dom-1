@@ -14,7 +14,7 @@
 ------------------*/
 #switch{
 
-    position: static;
+    position: relative;
 }
 
 #dark,
